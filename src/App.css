@@ -1,0 +1,15 @@
+.header{
+  padding: 20px;
+  background-color: rgb(161, 52, 235);
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+  width: 90%;
+  
+  margin:  0 auto;
+}
