@@ -1,15 +1,39 @@
 .header{
   padding: 20px;
   background-color: rgb(161, 52, 235);
+  color: white;
 }
 
 .form{
+  width: 500px;
+  gap: 10px;
   display: flex;
   flex-direction: column;
 }
 
+.form input{
+  outline: none;
+  border: none;
+  border: gray 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.form button{
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+
+
+}
+
 .container{
+  display: flex;
+  flex-direction: column;
   width: 90%;
-  
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
   margin:  0 auto;
 }
